@@ -1,0 +1,145 @@
+nav {
+    text-align: center;
+    background-color: #20b2aa;
+    padding: 20px;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+  }
+  .product img{
+    height: 200px;
+    width: 300px;
+  }
+  .product {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+  }
+     
+  .product h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+.product h4 {
+    margin: 10px 0;
+    font-size: 1.em;
+    color: #0c9d9d;
+}
+
+.product p {
+    color: #666;
+    font-size: 1em;
+}
+
+.product button {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.product button:hover {
+    background-color: #20b2aa;
+    color: #333;
+}
+#form{
+    text-align: center;
+    color: green;
+}
+
+.footer{
+  background-color: #20b2aa;
+  padding: 5px ;
+  color: #f0f8ff;
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+footer{
+  background-color: #20b2aa;
+  padding: 5px ;
+  color: #f0f8ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* larger screens */
+.logo {
+  width: 100%;
+  height: 1100px; 
+  padding: 40px;
+}
+
+#product {
+  color: #008080;
+  text-align: center;
+  padding: 60px;
+  font-size: 70px;
+}
+
+/* tablets and larger mobile devices */
+@media (min-width: 768px) {
+  .logo {
+    height: 800px; 
+  }
+
+  #product {
+    font-size: 60px;
+  }
+}
+
+/* mobile devices */
+@media (max-width: 767px) {
+  .logo {
+    height: 600px; 
+  }
+
+  #product {
+    padding: 40px; 
+    font-size: 50px; 
+  }
+}
+
+/* very small mobile devices */
+@media (max-width: 480px) {
+  .logo {
+    height: 400px; 
+  }
+
+  #product {
+    padding: 20px; 
+    font-size: 40px; 
+  }
+
+  .product img {
+    height: 150px; 
+    width: 200px; 
+  }
+}
